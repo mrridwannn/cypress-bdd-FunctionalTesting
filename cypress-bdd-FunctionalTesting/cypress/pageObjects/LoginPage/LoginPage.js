@@ -18,6 +18,10 @@ class LoginPage {
     verifyLoginSuccess() {
       cy.get("h2").should("contain", "My Account");
     }
+
+    verifyLoginFailed() {
+      cy.get('div[id="alert"]').should("contain", " Warning: No match for E-Mail Address and/or Password. ");
+    }
   }
   
   export default new LoginPage();

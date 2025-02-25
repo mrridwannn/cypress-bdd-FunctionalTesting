@@ -7,10 +7,10 @@ Given("I open the registration page", () => {
 });
 
 When("I enter valid registration details", () => {
-  RegisterPage.enterFirstName(userData.firstName);
-  RegisterPage.enterLastName(userData.lastName);
-  RegisterPage.enterEmail(userData.email);
-  RegisterPage.enterPassword(userData.password);
+  RegisterPage.enterFirstName(userData.validUser.firstName);
+  RegisterPage.enterLastName(userData.validUser.lastName);
+  RegisterPage.enterEmail(userData.validUser.email);
+  RegisterPage.enterPassword(userData.validUser.password);
 });
 
 When("I agree to the terms and conditions", () => {
