@@ -16,6 +16,7 @@ class CheckoutPage {
   
     paymentPage() {
       cy.get('h1').should('contain.text', 'Checkout');
+      cy.get('div[class="text-end"]').should('contain.text', 'Confirm Order');
     }
   
   }

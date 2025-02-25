@@ -1,5 +1,4 @@
 import CheckoutPage from "../../pageObjects/CheckoutPage/CheckoutPage";
-import userData from "../../fixtures/user.json";
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 Given("I have added a product to the cart", () => {

@@ -1,7 +1,14 @@
 {
-  "firstName": "Muhamad",
-  "lastName": "Ridwan",
-  "email": "ridwan901235412@gmail.com",
-  "password": "Test@1234",
+  "validUser": {
+    "firstName": "Muhamad",
+    "lastName": "Ridwan",
+    "email": "ridwan909@gmail.com",
+    "password": "Test@1234"
+  },
+  "invalidUser": {
+    "email": "invalid.email@example.com",
+    "password": "WrongPass123"
+  },
   "searchQuery": "MacBook"
 }
+
